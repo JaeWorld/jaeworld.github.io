@@ -5,9 +5,9 @@ url:            "https://jaeworld.github.io"
 
 # Author
 author:
-  name:         Chester How
-  url:          https://chester.how
-  email:        chesterhow@gmail.com
+  name:         Hyunjae Suh
+  url:          
+  email:        suhhj2002@gmail.com
 
 # Build settings
 markdown:       kramdown
