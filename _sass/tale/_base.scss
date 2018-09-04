@@ -11,7 +11,8 @@ body {
 }
 
 html {
-  font-family: $serif-primary;
+  font-family: "Gidole-Regular";
+		  src: url( '../_assets/fonts/Gidole-Regular.ttf') format( 'truetype');
   font-size: 14px;
   overflow-y: scroll;
 
