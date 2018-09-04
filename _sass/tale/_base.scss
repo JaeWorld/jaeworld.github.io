@@ -32,7 +32,8 @@ h4,
 h5,
 h6 {
   color: $default-shade;
-  font-family: $sans-serif;
+  font-family: "Gidole-Regular";
+		  src: url( '../assets/fonts/Gidole-Regular.ttf') format( 'truetype');
   line-height: normal;
 }
 
