@@ -5,7 +5,7 @@ author: "Hyunjae Suh"
 permalink: /about/
 ---
 
-##### 서현재 (Hyunjae Suh)
+### 서현재 (Hyunjae Suh)
 
 ---
 
@@ -16,6 +16,8 @@ permalink: /about/
 공부한 내용을 일기처럼 포스팅하고 있습니다.
 
 E mail : suhhj2002@gmail.com
+
+Github : https://github.com/JaeWorld
 
 
 
