@@ -29,5 +29,5 @@ permalink:      /:year-:month-:day/:title
 paginate:       10
 
 # Comments
-disqus_url: http://disqus.com/by/hyunjaesuh 
+disqus_url: http://disqus.com/by/jaeworld_blog  
 disqus_id: jaeworld
