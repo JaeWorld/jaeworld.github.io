@@ -22,7 +22,7 @@ permalink: /about/
 
 E mail : suhhj2002@gmail.com
 
-Github : [https://github.com/JaeWorld](https://github.com/JaeWorld) {: target="_blank" }
+Github : [https://github.com/JaeWorld](https://github.com/JaeWorld){: target="_blank" }
 
 
 
