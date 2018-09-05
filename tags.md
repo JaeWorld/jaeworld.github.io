@@ -1,7 +1,8 @@
 ---
-layout: page
-permalink: /tags/
+layout: post
 title: Tags
+author: "Hyunjae Suh"
+permalink: /tags/
 ---
 
 <ul class="tag-cloud">
