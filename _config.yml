@@ -30,4 +30,4 @@ paginate:       10
 
 # Comments
 disqus_url: http://disqus.com/by/jaeworld_blog  
-disqus_id: jaeworld
+disqus_shortname: jaeworld
