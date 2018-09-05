@@ -8,7 +8,7 @@ permalink: /about/
 ### 서현재 (Hyunjae Suh)
 
 ---
-![shinjuku](https://user-images.githubusercontent.com/28145780/45098265-97b48600-b15f-11e8-8578-5cbc72eaa1f6.jpg)
+![shinjuku](https://user-images.githubusercontent.com/28145780/45098265-97b48600-b15f-11e8-8578-5cbc72eaa1f6.jpg){: width="200" height="200"){: .center}
 
 
 
