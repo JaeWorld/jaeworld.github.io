@@ -14,7 +14,7 @@ title: Tags
 {% endfor %}
 </ul>
 
-<div id="catalogue">
+<div class="catalogue">
 {% for tag in site.tags %}
   <div class="catalogue-group">
     {% capture tag_name %}{{ tag | first }}{% endcapture %}
