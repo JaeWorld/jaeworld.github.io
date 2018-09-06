@@ -1,6 +1,6 @@
 ---
 layout: post
-title: (Python) 람다 함수 (lambda function)
+title: (Python) 람다 함수
 tags:
 - Python
 ---
