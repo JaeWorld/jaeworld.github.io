@@ -1,6 +1,7 @@
 ---
 layout: post
 title: (Javascript) 타입 변경
+comments: true
 tags:
 - Javascript
 ---
