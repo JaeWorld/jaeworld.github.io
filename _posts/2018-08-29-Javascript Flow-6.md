@@ -1,6 +1,7 @@
 ---
 layout: post
 title: (Javascript) 클로저
+comments: true
 tags:
 - Javascript
 ---
