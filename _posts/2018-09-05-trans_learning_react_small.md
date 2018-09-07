@@ -1,6 +1,7 @@
 ---
 layout: post
 title: (번역) 리액트를 배우고 계시나요? 간소하게 시작해 보세요.
+comments: true
 tags:
 - Translation
 - React
