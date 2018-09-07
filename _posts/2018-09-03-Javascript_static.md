@@ -1,6 +1,7 @@
 ---
 layout: post
 title: (Javascript) static 메소드 및 프로퍼티
+comments: true
 tags:
 - Javascript
 ---
