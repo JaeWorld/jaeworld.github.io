@@ -1,6 +1,7 @@
 ---
 layout: post
 title: (Python) lambda 함수 활용
+comments: true
 tags:
 - Python
 ---
