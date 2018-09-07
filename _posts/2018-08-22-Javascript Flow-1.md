@@ -1,6 +1,7 @@
 ---
 layout: post
 title: (Javascript) 기본형, 참조형
+comments: true
 tags:
 - Javascript
 ---
