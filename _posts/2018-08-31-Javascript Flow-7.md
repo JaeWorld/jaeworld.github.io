@@ -1,6 +1,7 @@
 ---
 layout: post
 title: (Javascript) 프로토타입
+comments: true
 tags:
 - Javascript
 ---
