@@ -1,6 +1,7 @@
 ---
 layout: post
 title: (Python) namedtuple
+comments: true
 tags:
 - Python
 ---
