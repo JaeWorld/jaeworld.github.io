@@ -1,6 +1,7 @@
 ---
 layout: post
 title: (Python) 람다 함수
+comments: true
 tags:
 - Python
 ---
