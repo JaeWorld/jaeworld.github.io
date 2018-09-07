@@ -1,6 +1,7 @@
 ---
 layout: post
 title: (Python) List Comprehension
+comments: true
 tags:
 - Python
 ---
