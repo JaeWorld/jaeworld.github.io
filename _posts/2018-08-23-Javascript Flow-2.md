@@ -1,6 +1,7 @@
 ---
 layout: post
 title: (Javascript) 호이스팅
+comments: true
 tags:
 - Javascript
 ---
