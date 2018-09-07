@@ -1,6 +1,7 @@
 ---
 layout: post
 title: (React) 'Hello world!'
+comments: true
 tags:
 - React
 - Javascript
