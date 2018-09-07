@@ -1,6 +1,7 @@
 ---
 layout: post
 title: (Javascript) 콜백함수
+comments: true
 tags:
 - Javascript
 ---
