@@ -1,6 +1,7 @@
 ---
 layout: post
 title: (Python) while문
+comments: true
 tags:
 - Python
 ---
