@@ -1,6 +1,7 @@
 ---
 layout: post
 title: (Javascript) class 상속
+comments: true
 tags:
 - Javascript
 ---
