@@ -1,6 +1,7 @@
 ---
 layout: post
 title: (Javascript) 스코프, 실행컨텍스트
+comments: true
 tags:
 - Javascript
 ---
