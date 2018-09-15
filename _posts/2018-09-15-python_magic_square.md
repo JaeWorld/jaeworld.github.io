@@ -1,5 +1,5 @@
 ---
-layout: posts
+layout: post
 title: 마방진 (Magic square)
 comments: true
 tags:
