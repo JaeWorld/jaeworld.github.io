@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 마크다운 링크 새창으로 열기
+title: 마크다운 링크 넣기
 comments: true
 tags:
 - Markdown
