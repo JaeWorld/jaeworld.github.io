@@ -18,7 +18,7 @@ tags:
 
 이번엔 JSON 관련 메소드를 공부해보자.
 
-자바스크립트에는 JSON을 처리하기 위한 메소드로 `JSON.stringify` `JSON.parse()` 가 있다. 
+자바스크립트에는 JSON을 처리하기 위한 메소드로 `JSON.stringify()` `JSON.parse()` 가 있다. 
 
 
 
