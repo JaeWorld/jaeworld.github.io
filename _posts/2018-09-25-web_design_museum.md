@@ -14,7 +14,7 @@ tags:
 
 
 
-[https://www.webdesignmuseum.org/](https://www.webdesignmuseum.org/)
+[https://www.webdesignmuseum.org/](https://www.webdesignmuseum.org/){:target="_blank"}
 
 
 
@@ -28,13 +28,13 @@ tags:
 
 ---
 
-[1998년도의 구글](https://www.webdesignmuseum.org/gallery/google-1998)
+[1998년도의 구글](https://www.webdesignmuseum.org/gallery/google-1998){: target="_blank"}
 
-[2004년의 페이스북](https://www.webdesignmuseum.org/gallery/facebook-2004)
+[2004년의 페이스북](https://www.webdesignmuseum.org/gallery/facebook-2004){: target="_blank"}
 
-[2005년의 유튜브](https://www.webdesignmuseum.org/gallery/youtube-2005)
+[2005년의 유튜브](https://www.webdesignmuseum.org/gallery/youtube-2005){: target="_blank"}
 
-[2003년의 네이버(일본)](https://www.webdesignmuseum.org/gallery/naver-2003)
+[2003년의 네이버(일본)](https://www.webdesignmuseum.org/gallery/naver-2003){: target="_blank"}
 
-[2002년의 싸이월드](https://www.webdesignmuseum.org/gallery/cyworld-2002)
+[2002년의 싸이월드](https://www.webdesignmuseum.org/gallery/cyworld-2002){: target="_blank"}
 
