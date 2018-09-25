@@ -20,7 +20,7 @@ tags:
 
 
 
-##### `innerText` 
+##### innerText
 
 ---
 
@@ -49,7 +49,7 @@ tags:
   `<h3>` 태그를 포함한 문자열이 그대로 출력된다.
 
 
-##### `innerHTML`
+##### innerHTML
 
 ---
 
