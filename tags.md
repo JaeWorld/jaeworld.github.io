@@ -23,8 +23,9 @@ permalink: /tags/
     <a name="{{ tag_name | slugize }}"></a>
     {% for post in site.tags[tag_name] %}
     <article class="catalogue-item">
-      <h4><a href="{{ root_url }}{{ post.url }}">{{post.title}}</a></h4><br>
+      <h4><a href="{{ root_url }}{{ post.url }}">{{post.title}}</a></h4>
     </article>
+    <br>
     {% endfor %}
   </div>
 {% endfor %}
