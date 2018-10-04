@@ -44,7 +44,6 @@ tags:
 ```javascript
 let books = []
 
-// localStorage에 아이템 추가
 localStorage.setItem('books', JSON.stringify(books))
 
 const data = JSON.parse(localStorage.getItem('books'))
