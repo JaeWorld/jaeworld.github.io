@@ -3,7 +3,7 @@ layout: post
 title: HTTP 상태 코드(Status Code)
 comments: true
 tags:
-- Server
+- Web
 ---
 
 
