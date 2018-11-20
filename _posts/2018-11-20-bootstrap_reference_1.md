@@ -43,10 +43,15 @@ tags:
 ---
 
 * `<h1>` ~ `<h6>`
+
 * `.display-1` ~ `.display-4`
+
 * `<small>`
+
 * `<mark>`
+
 * `<abbr>`
+
 * `<blockquote>`
 
 
@@ -56,10 +61,15 @@ tags:
 ---
 
 * `.table`
+
 * `.table-striped`
+
 * `.table-bordered`
+
 * `.table-hover`
+
 * `.table-dark`
+
 * `.table-borderless`
 
 
