@@ -1,6 +1,6 @@
 ---
 layout: post
-title: (Bootstrap) Bootstrap 클래스 정리 (1)
+title: (Bootstrap) Bootstrap 클래스 정리 (Grid, Text, Table, Image, Alert)
 comments: true
 tags:
 - Bootstrap
