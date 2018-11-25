@@ -29,13 +29,21 @@ tags:
 ###### Button 스타일
 
 * `.btn-primary` 
+
 * `.btn-secondary`
+
 * `.btn-success`
+
 * `.btn-info`
+
 * `.btn-warning`
+
 * `.btn-danger`
+
 * `.btn-dark`
+
 * `.btn-light`
+
 * `.btn-link`
 
 
@@ -43,12 +51,19 @@ tags:
 ###### Button Outline 스타일
 
 * `.btn-outline-primary`
+
 * `.btn-outline-secondary`
+
 * `.btn-outline-success`
+
 * `.btn-outline-info`
+
 * `.btn-outline-warning`
+
 * `.btn-outline-danger`
+
 * `.btn-outline-dark`
+
 * `.btn-outline-light` `.text-dark`
 
 
@@ -56,7 +71,9 @@ tags:
 ###### Button 사이즈
 
 * `.btn-lg` : 큰 사이즈
+
 * `.btn` : 기본 사이즈
+
 * `.btn-sm` : 작은 사이즈
 
 
@@ -70,20 +87,23 @@ tags:
 ###### Button 활성화 / 비활성화
 
 * `.active` : 활성화
-* `disabled` : <button> 태그인 경우
-* `.disabled` : <a> 태그인 경우
+
+* `disabled` : button 태그인 경우
+
+* `.disabled` : a 태그인 경우
 
 
 
 ###### Button 그룹
 
-* `.btn-group` : 하위에 <button> 태그 삽입
+* `.btn-group` : 하위에 button 태그 삽입
 
 
 
 ###### Button 그룹 사이즈
 
 * `.btn-group-lg`
+
 * `.btn-group-sm`
 
 
