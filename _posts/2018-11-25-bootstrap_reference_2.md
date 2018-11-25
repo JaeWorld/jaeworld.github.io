@@ -3,7 +3,7 @@ layout: post
 title: (Bootstrap) Bootstrap 클래스 정리 (Button)
 comments: true
 tags:
-- bootstrap
+- Bootstrap
 ---
 
 
