@@ -16,7 +16,7 @@ tags:
 
 자바스크립트의 `sort()` 메소드를 공부해보자.
 
-```JAVASCRIPT
+```javascript
 arr.sort()
 ```
 
@@ -57,7 +57,7 @@ console.log(arr)
 
 
 
-```JAVASCRIPT
+```javascript
 // 내림차순 정렬
 const arr = [5, 2, 8, 4]
 
