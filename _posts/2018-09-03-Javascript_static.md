@@ -8,7 +8,7 @@ tags:
 
 
 
-##### 프로토타입 static
+### prototype/static method
 
 ---
 
@@ -16,11 +16,11 @@ tags:
 
 ##### static
 
-자바스크립트에서 클래스에는 여러가지 프로퍼티가 있는데 그중 prototype프로퍼티에 할당되지 않는 프로퍼티들을 static 이라고 한다.
+자바스크립트에서 클래스에는 여러가지 프로퍼티가 있는데 그중 prototype 프로퍼티에 할당되지 않는 것들을 static 프로퍼티라고 한다.
 
 static 메소드, 프로퍼티는 1급 객체[^1]인 함수로서 호출되는 값들이다.
 
-prototype 프로퍼티에 할당된 메소드들을 prototype method라 하고 메소드(methods)라고 부른다.
+prototype 프로퍼티에 할당된 메소드들을 prototype method 라 하고 메소드(methods)라고 부른다.
 
 
 
@@ -31,19 +31,15 @@ prototype 프로퍼티에 할당된 메소드들을 prototype method라 하고 �
 
 
 
----
-
-
-
 그렇다면 클래스와 인스턴스간의 관계를 살펴보자.
 
-클래스에는 static methods 와 prototype methods 의 두가지가 있다고 했다.
+클래스에는 static methods 와 prototype methods 의 두가지가 있다.
 
-위 두가지는 인스턴스가 접근할 수 있는 방법에 차이점을 가진다.
+이 두가지 메소드는 인스턴스가 접근할 수 있는 방법이 다르다.
 
 
 
-우선 prototype프로퍼티의 methods 는 인스턴스와 `__proto__`[^2]로 연결되어있다.
+우선 prototype methods 는 인스턴스와 `__proto__`[^2]로 연결되어있다.
 
 그러므로 인스턴스에서 직접 접근이 가능하다.
 
@@ -51,13 +47,13 @@ prototype 프로퍼티에 할당된 메소드들을 prototype method라 하고 �
 
 반면 static methods는 직접 접근이 불가능하다.
 
-접근하기 위해서는 인스턴스가 아니라 생성자 함수에서 직접 접근해야 한다.
+접근하기 위해서는 인스턴스가 아니라 생성자 함수에서 접근해야 한다.
 
 
 
 ---
 
-예제 코드를 보자
+##### 예제
 
 
 
@@ -108,11 +104,9 @@ son.getInformation(son)
 // "son.getInformations is not a function"
 ```
 
-`getName()`,`getAge()` 메소드를 이용해 son 인스턴스의 이름, 나이를 출력할 수 있었다.
+`getName()`,`getAge()` 메소드를 이용해 son 인스턴스의 이름, 나이를 출력할 수 있다.
 
-하지만 `getInformation`메소드는 오류를 출력하는 걸 확인할 수 있다.
-
-이는 `getInformation` 메소드가 static으로 선언되어서인스턴스에서 직접 접근이 불가하기 때문이다.
+하지만 `getInformation`메소드는 오류를 출력하는 걸 확인할 수 있다. 이는 `getInformation` 메소드가 static으로 선언되어 인스턴스에서 직접 접근이 불가하기 때문이다.
 
 그러므로 다음과 같이 클래스에 직접 접근하여 사용해야 한다.
 
@@ -129,5 +123,5 @@ Person.getInformation(son)
 
 ___
 
-[^1]: 1급 객체란?
+[^1]: 1급 객체란? [위키백과](https://ko.wikipedia.org/wiki/%EC%9D%BC%EA%B8%89_%EA%B0%9D%EC%B2%B4)
 [^2]: `__proto__`는 부모객체의 prototype 프로퍼티를 가리킨다. [이전 포스팅](https://jaeworld.github.io/Javascript-Flow-7/) 참고
