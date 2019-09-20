@@ -1,9 +1,9 @@
-```
+---
 layout: post
 title: (Javascript) 배열에서 가장 큰 수, 가장 작은 수 찾기
 tags: 
 - Javascript
-```
+---
 
 ### 배열에서 가장 큰 수,가장 작은 수 찾기
 
