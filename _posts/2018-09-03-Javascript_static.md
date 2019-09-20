@@ -1,6 +1,6 @@
 ---
 layout: post
-title: (Javascript) static 메소드 및 프로퍼티
+title: (Javascript) static 메소드, 프로퍼티
 comments: true
 tags:
 - Javascript
@@ -8,53 +8,22 @@ tags:
 
 
 
-### prototype/static method
+# static method
 
 ---
 
+### static method
 
+자바스크립트의 클래스에서 prototype에 할당되지 않고 클래스 자체에 할당된 함수를 static 메소드라고 한다.
 
-##### static
+클래스 자체에 할당되었기 때문에 클래스의 인스턴스를 통해서는 호출될 수 없으며 클래스를 통해 호출해야 한다.
 
-자바스크립트에서 클래스에는 여러가지 프로퍼티가 있는데 그중 prototype 프로퍼티에 할당되지 않는 것들을 static 프로퍼티라고 한다.
-
-static 메소드, 프로퍼티는 1급 객체[^1]인 함수로서 호출되는 값들이다.
-
-prototype 프로퍼티에 할당된 메소드들을 prototype method 라 하고 메소드(methods)라고 부른다.
-
-
-
-즉, 클래스는 다음과 같은 요소를 가진다.
-
-- static methods, static properties
-- (prototype) methods
-
-
-
-그렇다면 클래스와 인스턴스간의 관계를 살펴보자.
-
-클래스에는 static methods 와 prototype methods 의 두가지가 있다.
-
-이 두가지 메소드는 인스턴스가 접근할 수 있는 방법이 다르다.
-
-
-
-우선 prototype methods 는 인스턴스와 `__proto__`[^2]로 연결되어있다.
-
-그러므로 인스턴스에서 직접 접근이 가능하다.
-
-
-
-반면 static methods는 직접 접근이 불가능하다.
-
-접근하기 위해서는 인스턴스가 아니라 생성자 함수에서 접근해야 한다.
-
+클래스가 가지고 있지만 클래스의 인스턴스에 바인딩되지 않은 기능을 구현하고자 할때 사용된다.
 
 
 ---
 
-##### 예제
-
+### 예제
 
 
 ```javascript
@@ -63,7 +32,7 @@ function Person(name, age) {
     this.age = age
 }
 
-Person.getInformations = function(instance) {
+Person.getInformation = function(instance) {
   return {
     name: instance.name,
     age: instance.age
@@ -79,9 +48,9 @@ Person.prototype.getAge = function() {
 }
 ```
 
-`getInformations` 는 static으로 선언했고,
+`getInformation` 는 static 메소드
 
-`getName`,`getAge`는 prototype method로 선언했다.
+`getName`,`getAge`는 prototype 메소드로 선언했다.
 
 
 
@@ -94,19 +63,19 @@ var son = new Person('Son', 26)
 생성한 인스턴스를 가지고 놀아보자.
 
 ```javascript
+son.getInformation(son)
+// "son.getInformations is not a function"
+
 son.getName()
 // "Son"
 
 son.getAge()
 // 26
-
-son.getInformation(son)
-// "son.getInformations is not a function"
 ```
 
-`getName()`,`getAge()` 메소드를 이용해 son 인스턴스의 이름, 나이를 출력할 수 있다.
+`getName` , `getAge` 메소드를 이용해 son 인스턴스의 이름, 나이를 출력할 수 있다.
 
-하지만 `getInformation`메소드는 오류를 출력하는 걸 확인할 수 있다. 이는 `getInformation` 메소드가 static으로 선언되어 인스턴스에서 직접 접근이 불가하기 때문이다.
+하지만 `getInformation` 메소드는 오류를 출력하는데 이는 `getInformation` 가 static 메소드이므로 인스턴스에서 접근이 불가하기 때문이다.
 
 그러므로 다음과 같이 클래스에 직접 접근하여 사용해야 한다.
 
@@ -121,7 +90,3 @@ Person.getInformation(son)
 
 
 
-___
-
-[^1]: 1급 객체란? [위키백과](https://ko.wikipedia.org/wiki/%EC%9D%BC%EA%B8%89_%EA%B0%9D%EC%B2%B4)
-[^2]: `__proto__`는 부모객체의 prototype 프로퍼티를 가리킨다. [이전 포스팅](https://jaeworld.github.io/Javascript-Flow-7/) 참고
