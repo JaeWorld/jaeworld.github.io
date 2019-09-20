@@ -1,6 +1,6 @@
 ---
 layout: post
-title: (Javascript) 유니코드, 문자열 변환
+title: (Javascript) 유니코드 변환
 comments: true
 tags: 
 - Javascript
@@ -8,7 +8,7 @@ tags:
 
 
 
-### 유니코드, 문자열 변환하기
+## 유니코드, 문자열 변환하기
 
 ---
 
@@ -26,7 +26,7 @@ tags:
 
 
 
-##### 문자열을 유니코드로 - charCodeAt()
+### 문자열을 유니코드로 - charCodeAt()
 
 ---
 
@@ -51,7 +51,7 @@ str.charCodeAt(3) // 66
 
 
 
-##### 유니코드를 문자열로 - fromCharCode()
+### 유니코드를 문자열로 - fromCharCode()
 
 ---
 
