@@ -1,6 +1,6 @@
 ---
 layout: post
-title: (Javascript) static 메소드, 프로퍼티
+title: (Javascript) static 메소드
 comments: true
 tags:
 - Javascript
