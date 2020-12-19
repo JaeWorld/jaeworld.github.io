@@ -20,7 +20,7 @@ tags:
 
 
 
-##### innerText
+#### innerText
 
 ---
 
@@ -49,7 +49,7 @@ tags:
   `<h3>` 태그를 포함한 문자열이 그대로 출력된다.
 
 
-##### innerHTML
+#### innerHTML
 
 ---
 
@@ -61,9 +61,9 @@ tags:
 </head>
 <body>
   <div id="task">소설 읽기</div>
-  // innerText를 사용
+  // innerHTML를 사용
   <script>
-  	var task = document.getElementById('task').innerText = '<h3>만화 보기</h3>'
+  	var task = document.getElementById('task').innerHTML = '<h3>만화 보기</h3>'
   </script>
 </body>
 </html>
