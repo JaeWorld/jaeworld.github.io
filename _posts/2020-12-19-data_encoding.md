@@ -24,7 +24,7 @@ tags:
 
 레이블 인코딩은 데이터프레임의 열을 숫자값으로 변환하는 방법입니다. 
 
->![label1](C:\Users\suhhj\Pictures\label1.png)
+>![label1](https://blog.kakaocdn.net/dn/bq4BHc/btqInrO6SRM/gnYIpT5tF2WvBeIK30XsT1/img.png)
 
 위 예시처럼 문자형으로 되어있는 열을 숫자형으로 변환합니다. 각각의 항목이 고유 번호를 부여받았음을 확인할 수 있습니다.
 
@@ -98,7 +98,7 @@ print('디코딩 원본값: ', encoder.inverse_transform([4,5,2,0,1,1,3,3]))
 
 원-핫 인코딩은 새로운 열들을 추가해 그 값에 해당하는 칼럼에만 1을 표시하고 나머지 칼럼에는 0을 표시하는 방법입니다. 그림을 통해 자세히 알아보겠습니다.
 
->![onehot1](C:\Users\suhhj\Pictures\onehot1.png)
+>![onehot1](https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2FQUtCQ%2FbtqIqYyOJMv%2FJQuQzB7RSFFnCGa0ktA271%2Fimg.png)
 
 위 그림처럼 열들의 고유 값을 차원을 변환한 뒤, 해당하는 칼럼에만 1을 표시, 나머지에는 0을 표시합니다.
 
