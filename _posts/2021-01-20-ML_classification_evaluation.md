@@ -1,9 +1,11 @@
 ---
 layout: post
-title: [ML] 분류의 성능 평가
+title: (ML) 분류의 성능 평가
 comments: true
 tags: 
 - Machine Learning
+
+
 ---
 
 
@@ -22,7 +24,7 @@ tags:
 
 정확도는 **실제 데이터와 예측 데이터가 얼마나 같은지**를 나타내는 지표이다. 
 
-![image-20210120173351593](C:\Users\Hyunjae\AppData\Roaming\Typora\typora-user-images\image-20210120173351593.png)
+![image-20210120173351593](https://i.ibb.co/nsdkfPp/image-20210120173351593.png)
 
 
 
@@ -92,7 +94,7 @@ tags:
 
 정밀도는 **Positive로 예측한** 데이터 중, 예측 값과 실제 값이 모두 Positive인 데이터의 비율을 나타내는 지표이다.
 
-![image-20210120173543076](C:\Users\Hyunjae\AppData\Roaming\Typora\typora-user-images\image-20210120173543076.png)
+![image-20210120173543076](https://i.ibb.co/wWf3Y6p/image-20210120173543076.png)
 
 
 
@@ -114,7 +116,7 @@ tags:
 
 재현율은 **실제 값이 Positive**인 데이터 중, 예측 값과 실제 값이 모두 Positive인 데이터의 비율을 나타내는 지표이다.
 
-![image-20210120173620589](C:\Users\Hyunjae\AppData\Roaming\Typora\typora-user-images\image-20210120173620589.png)
+![image-20210120173620589](https://i.ibb.co/3vvCqjC/image-20210120173620589.png)
 
 
 
@@ -136,7 +138,7 @@ tags:
 
 F1 스코어는 정밀도와 재현율을 결합한 지표로써, 두 지표가 어느 한쪽으로 치우쳐져있는지를 나타내는 지표이다. 정밀도와 재현율이 한쪽으로 치우치지 않을 경우 높은 값을 가진다.
 
- ![image-20210120173833910](C:\Users\Hyunjae\AppData\Roaming\Typora\typora-user-images\image-20210120173833910.png)
+![image-20210120173833910](https://i.ibb.co/VwrL2jt/image-20210120173833910.png)
 
 
 
