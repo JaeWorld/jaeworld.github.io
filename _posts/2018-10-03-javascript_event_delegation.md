@@ -2,8 +2,14 @@
 layout: post
 title: (Javascript) 이벤트 위임
 comment: true
+toc: true
+toc_sticky: true
+use_math: true
+
+categories:
+  - JavaScript
 tags:
-- Javascript
+  - JavaScript
 ---
 
 
