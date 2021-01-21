@@ -2,8 +2,14 @@
 layout: post
 title: (Javascript) 유니코드 변환
 comments: true
-tags: 
-- Javascript
+toc: true
+toc_sticky: true
+use_math: true
+
+categories:
+  - JavaScript
+tags:
+  - JavaScript
 ---
 
 
