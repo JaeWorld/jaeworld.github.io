@@ -2,6 +2,12 @@
 layout: post
 title: (ML) 데이터 전처리
 comments: true
+toc: true
+toc_sticky: true
+use_math: true
+
+categories:
+  - Data Science
 tags:
 - Machine Learning
 ---
