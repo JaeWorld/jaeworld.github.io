@@ -2,9 +2,14 @@
 layout: post
 title: (Javascript) 템플릿 리터럴
 comments: true
+toc: true
+toc_sticky: true
+use_math: true
+
+categories:
+  - JavaScript
 tags:
-- Javascript
-- ES6
+  - JavaScript
 ---
 
 
