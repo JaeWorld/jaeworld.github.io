@@ -1,8 +1,14 @@
 ---
 layout: post
 title: (Javascript) 배열에서 가장 큰 수, 가장 작은 수 찾기
-tags: 
-- Javascript
+toc: true
+toc_sticky: true
+use_math: true
+
+categories:
+  - JavaScript
+tags:
+  - JavaScript
 ---
 
 ### 배열에서 가장 큰 수,가장 작은 수 찾기
