@@ -2,8 +2,14 @@
 layout: post
 title: (Javascript) static 메소드
 comments: true
+toc: true
+toc_sticky: true
+use_math: true
+
+categories:
+  - JavaScript
 tags:
-- Javascript
+  - JavaScript
 ---
 
 
