@@ -2,6 +2,12 @@
 layout: post
 title: 마방진 (Magic square)
 comments: true
+toc: true
+toc_sticky: true
+use_math: true
+
+categories:
+  - Python
 tags:
 - Mathematics
 - Python
