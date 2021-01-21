@@ -1,5 +1,5 @@
 ---
-layout: posts
+layout: post
 title: (ML) 데이터 전처리
 comments: true
 tags:
