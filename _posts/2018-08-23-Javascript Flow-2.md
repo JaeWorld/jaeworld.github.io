@@ -2,8 +2,14 @@
 layout: post
 title: (Javascript) 호이스팅
 comments: true
+toc: true
+toc_sticky: true
+use_math: true
+
+categories:
+  - JavaScript
 tags:
-- Javascript
+  - JavaScript
 ---
 ### 호이스팅(Hoisting)
 
