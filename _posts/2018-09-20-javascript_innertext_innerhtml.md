@@ -2,8 +2,14 @@
 layout: post
 title: (Javascript) innerText 와 innerHTML
 comments: true
+toc: true
+toc_sticky: true
+use_math: true
+
+categories:
+  - JavaScript
 tags:
-- Javascript
+  - JavaScript
 ---
 
 
