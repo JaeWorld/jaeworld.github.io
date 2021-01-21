@@ -3,9 +3,14 @@
 layout: post
 title: (Javascript) arrow 함수
 comments: true
+toc: true
+toc_sticky: true
+use_math: true
+
+categories:
+  - JavaScript
 tags:
-- Javascript
-- ES6
+  - JavaScript
 ---
 
 
