@@ -2,6 +2,12 @@
 layout: post
 title: (Python) ord(), chr() 메소드
 comments: true
+toc: true
+toc_sticky: true
+use_math: true
+
+categories:
+  - Python
 tags:
 - Python
 ---
