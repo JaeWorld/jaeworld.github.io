@@ -108,14 +108,14 @@ analytics:
 # Site Author
 author:
   name             : "Jaeworld"
-  avatar           : ""
+  avatar           : "assets/title_img.jpg"
   bio              : "Learning Data Science"
   location         : "Seoul, South Korea"
   email            : "hjworld32@gmail.com"
   links:
     - label: "Email"
       icon: "fas fa-fw fa-envelope-square"
-      url: mailto:hjworld32@gmail.com
+      # url: mailto:hjworld32@gmail.com
     - label: "LinkedIn"
       icon: "fab fa-fw fa-linkedin"
       # url: "https://www.linkedin.com/"
