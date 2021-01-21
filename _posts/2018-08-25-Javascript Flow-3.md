@@ -2,8 +2,14 @@
 layout: post
 title: (Javascript) 스코프, 실행컨텍스트
 comments: true
+toc: true
+toc_sticky: true
+use_math: true
+
+categories:
+  - JavaScript
 tags:
-- Javascript
+  - JavaScript
 ---
 
 ##### 함수 스코프, 실행 컨텍스트
