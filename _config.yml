@@ -16,23 +16,23 @@ minimal_mistakes_skin    : "default" # "air", "aqua", "contrast", "dark", "dirt"
 
 # Site Settings
 locale                   : "en-US"
-title                    : "호두코딩"
+title                    : "Jaeworld's blog"
 title_separator          : "-"
 subtitle                 : # site tagline that appears below site title in masthead
-name                     : "Seoyoung H"
-description              : "경영학과를 다니다 개발에 눈을 뜬 Data Scientist 꿈나무. Data Science, Machine Learning, NLP를 공부합니다."
-url                      : "https://seoyoungh.github.io"
+name                     : "Jaeworld"
+description              : "Learning Data Science"
+url                      : "https://jaeworld.github.io"
 baseurl                  : # the subpath of your site, e.g. "/blog"
 repository               : # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
-teaser                   : "/assets/images/main.png"
-logo                     : "/assets/images/logo.png"
+teaser                   : ""
+logo                     : ""
 masthead_title           : # overrides the website title displayed in the masthead, use " " for no title
 # breadcrumbs            : false # true, false (default)
 words_per_minute         : 200
 comments:
   provider               : "disqus"
   disqus:
-    shortname            : seoyoungh-github-io
+    shortname            : jaeworld-github-io
   discourse:
     server               : # https://meta.discourse.org/t/embedding-discourse-comments-via-javascript/31963 , e.g.: meta.discourse.org
   facebook:
@@ -107,18 +107,18 @@ analytics:
 
 # Site Author
 author:
-  name             : "Seoyoung H"
-  avatar           : "/assets/images/profile.JPG"
-  bio              : "경영학과를 다니다 개발에 눈을 뜬 Data Scientist 꿈나무. Data Science, Machine Learning, NLP를 공부합니다."
+  name             : "Jaeworld"
+  avatar           : ""
+  bio              : "Learning Data Science"
   location         : "Seoul, South Korea"
-  email            :
+  email            : "hjworld32@gmail.com"
   links:
     - label: "Email"
       icon: "fas fa-fw fa-envelope-square"
-      url: mailto:seoyoungh.kr@gmail.com
+      url: mailto:hjworld32@gmail.com
     - label: "LinkedIn"
       icon: "fab fa-fw fa-linkedin"
-      url: "https://www.linkedin.com/in/seoyoungh/"
+      # url: "https://www.linkedin.com/"
     - label: "Twitter"
       icon: "fab fa-fw fa-twitter-square"
       # url: "https://twitter.com/"
@@ -127,17 +127,17 @@ author:
       # url: "https://facebook.com/"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
-      url: "https://github.com/seoyoungh"
+      url: "https://github.com/jaeworld"
     - label: "Instagram"
       icon: "fab fa-fw fa-instagram"
-      url: "https://instagram.com/seoyoungxx"
+      # url: "https://instagram.com/"
 
 # Site Footer
 footer:
   links:
     - label: "LinkedIn"
       icon: "fab fa-fw fa-linkedin"
-      url: "https://www.linkedin.com/in/seoyoungh/"
+      # url: "https://www.linkedin.com/"
     - label: "Twitter"
       icon: "fab fa-fw fa-twitter-square"
       # url:
@@ -146,7 +146,7 @@ footer:
       # url:
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
-      url: "https://github.com/seoyoungh"
+      url: "https://github.com/jaeworld"
     - label: "GitLab"
       icon: "fab fa-fw fa-gitlab"
       # url:
@@ -155,7 +155,7 @@ footer:
       # url:
     - label: "Instagram"
       icon: "fab fa-fw fa-instagram"
-      url: "https://instagram.com/seoyoungxx"
+      # url: "https://instagram.com/"
 
 
 # Reading Files
