@@ -2,6 +2,12 @@
 layout: post
 title: (Python) lambda 함수 활용
 comments: true
+toc: true
+toc_sticky: true
+use_math: true
+
+categories:
+  - Python
 tags:
 - Python
 ---
