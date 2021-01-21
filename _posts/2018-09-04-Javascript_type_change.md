@@ -2,8 +2,14 @@
 layout: post
 title: (Javascript) 타입 변경
 comments: true
+toc: true
+toc_sticky: true
+use_math: true
+
+categories:
+  - JavaScript
 tags:
-- Javascript
+  - JavaScript
 ---
 
 
