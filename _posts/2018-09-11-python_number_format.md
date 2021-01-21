@@ -2,6 +2,12 @@
 layout: post
 title: (Python) 숫자 포맷팅
 comments: true
+toc: true
+toc_sticky: true
+use_math: true
+
+categories:
+  - Python
 tags:
 - Python
 ---
