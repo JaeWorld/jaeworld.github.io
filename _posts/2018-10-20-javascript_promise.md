@@ -2,8 +2,14 @@
 layout: post
 title: (javascript) Promise
 comments: true
+toc: true
+toc_sticky: true
+use_math: true
+
+categories:
+  - JavaScript
 tags:
-- Javascript
+  - JavaScript
 ---
 
 
