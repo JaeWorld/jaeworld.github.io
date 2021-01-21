@@ -1,6 +1,14 @@
 ---
 layout: post 
 title: (Python) sorted, sort 함수 
+toc: true
+toc_sticky: true
+use_math: true
+
+categories:
+  - Python
+tags:
+  - Python
 ---
 
   
