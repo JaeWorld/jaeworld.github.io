@@ -2,9 +2,14 @@
 layout: post
 title: (Javascript) let 변수가 등장한 이유
 comments: true
+toc: true
+toc_sticky: true
+use_math: true
+
+categories:
+  - JavaScript
 tags:
-- Javascript
-- ES6
+  - JavaScript
 ---
 
 
