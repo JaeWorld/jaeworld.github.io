@@ -1,9 +1,13 @@
 ---
-layout: post
 title: (ML) 분류의 성능 평가
 comments: true
+toc: true
+toc_sticky: true
+
+categories:
+  - Data Science
 tags: 
-- Machine Learning
+  - Machine Learning
 
 
 ---
