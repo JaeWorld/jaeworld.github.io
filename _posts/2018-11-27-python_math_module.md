@@ -2,6 +2,12 @@
 layout: post
 title: (Python) Math 모듈
 comments: true
+toc: true
+toc_sticky: true
+use_math: true
+
+categories:
+  - Python
 tags:
 - Python
 ---
