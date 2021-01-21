@@ -2,9 +2,14 @@
 layout: post
 title: (Javascript) 디스트럭처링
 comments: true
+toc: true
+toc_sticky: true
+use_math: true
+
+categories:
+  - JavaScript
 tags:
-- Javascript
-- ES6
+  - JavaScript
 ---
 
 
